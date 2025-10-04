@@ -9,7 +9,7 @@ import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 
 const App = () => {
-  const url = "http://localhost:4000"
+  const url = "https://backend-main-j4hf.onrender.com"
   return (
     <div>
       <ToastContainer />
@@ -18,7 +18,7 @@ const App = () => {
       <div className='app-content'>
         <Sidebar />
         <Routes>
-          <Route path='/' element={<Add url={url}/>}/>
+          {/*<Route path='/' element={<Add url={url}/>}/>*/}
           <Route path='/add' element={<Add url={url}/>} />
           <Route path='/list' element={<Lists url={url}/>} />
           <Route path='/order' element={<Orders url={url}/>} />

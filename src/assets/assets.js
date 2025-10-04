@@ -6,7 +6,7 @@ import profile from './profile.svg'
 import upload_icon from './upload_area.png'
 import parcel_icon from './parcel_icon.png'
 
-export const url = "https://food-4h0a.onrender.com"
+export const url = "https://backend-main-j4hf.onrender.com"
 export const assets ={
 
     add_icon,
